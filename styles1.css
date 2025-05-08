@@ -6,7 +6,7 @@ body {
   }
 
   .hero-section {
-    background-image: url('../IMG_7811.jpg'); /* adjust path if needed */
+    background-image: url('IMG_7811.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.4); /* dark overlay for contrast */
+    background-color: rgba(0, 0, 0, 0.4);
     z-index: 1;
   }
   
