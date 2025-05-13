@@ -417,8 +417,7 @@ form p a {
   color: #1dbf73;
   text-decoration: none;
   font-weight: bold;
-}
-
+} 
 form p a:hover {
   text-decoration: underline;
 }
