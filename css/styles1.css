@@ -46,14 +46,15 @@ body {
     color:#1dbf73;
   }
 
- .logo-img {
-  height: 100px;
-  max-height: 75px;
+.logo-img {
+  height: auto;
+  max-height: 60px;
   width: auto;
   object-fit: contain;
   display: block;
-  image-rendering: auto; 
+  image-rendering: auto;
 }
+
 
   .navbar {
   display: flex;
