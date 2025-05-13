@@ -6,7 +6,7 @@ body {
   }
 
   .hero-section {
-    background-image: url('../IMG_7811.jpg');
+    background-image: url('../IMG_7811.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -357,4 +357,63 @@ body {
   background-color: rgba(255, 255, 255, 0.15);
   border-radius: 10px;
   backdrop-filter: blur(5px);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="tel"] {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+form button,
+form a.signup,
+form a.signin {
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+form .signup {
+  background-color: #1dbf73;
+  color: #fff;
+}
+
+form .signin {
+  background-color: #1dbf73;
+  color: #ffffff;
+}
+
+form p {
+  font-size: 0.9em;
+}
+
+form p a {
+  color: #1dbf73;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+form p a:hover {
+  text-decoration: underline;
 }
