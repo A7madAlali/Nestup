@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Membership Plans | Nestup</title>
+  <link rel="stylesheet" href="css/membership.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="navbar-left">
+    <a href="index.html"><img src="nestup-logo.png" alt="Nestup Logo" class="logo-img"></a>
+  </div>
+  <div class="navbar-right">
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="ar-decor.html">AR Studio</a>
+    <a href="#">Help</a>
+    <button onclick="location.href='signin.html'" class="signin">Sign In</button>
+    <button onclick="location.href='signup.html'" class="signup">Sign Up</button>
+  </div>
+</nav>
+
+<section class="membership-section">
+  <h1>Choose Your Membership</h1>
+  <p>Unlock premium furniture, exclusive courses, and more with Nestup membership.</p>
+
+  <div class="plans-container">
+    <!-- Free Plan -->
+    <div class="plan-card">
+      <h2>Free</h2>
+      <p class="price">$0/month</p>
+      <ul>
+        <li>Access to basic furniture</li>
+        <li>Standard AR tools</li>
+        <li>Limited courses</li>
+      </ul>
+      <button class="select-btn">Current Plan</button>
+    </div>
+
+    <!-- Premium Plan -->
+    <div class="plan-card premium">
+      <h2>Premium</h2>
+      <p class="price">$9.99/month</p>
+      <ul>
+        <li>Unlock all premium furniture</li>
+        <li>Advanced AR placement tools</li>
+        <li>Full course access</li>
+        <li>Priority support</li>
+      </ul>
+      <button class="select-btn" onclick="location.href='signup.html'">Upgrade Now</button>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
