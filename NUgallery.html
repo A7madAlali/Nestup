@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery - Nestup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/courses.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar (Copied from Courses Page) -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <a href="index.html">
+        <img src="nestup-logo.png" alt="Nestup Logo" class="logo-img">
+      </a>
+    </div>
+    <div class="navbar-right">
+      <a href="index.html">Home</a>
+      <a href="courses.html">My Courses</a>
+      <a href="NUgallery.html">Gallery</a>
+      <a href="ar.html">AR Decor Studio</a>
+      <a href="#">Help</a>
+      <button class="signin" onclick="location.href='signin.html'">Sign In</button>
+      <button class="signup" onclick="location.href='signup.html'">Sign Up</button>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="hero-section">
+    <div class="hero-content">
+      <h1>Student Gallery</h1>
+      <p>Explore a selection of real student interior design projects created on Nestup. Get inspired and share your feedback!</p>
+    </div>
+  </header>
+
+  <!-- Gallery Section -->
+  <section class="courses-section">
+
+    <div class="course-card">
+      <div class="course-header">
+        <h2>Entrance Design</h2>
+      </div>
+      <img src="bath.jpg" alt="Student Design - Entrance" style="width: 100%; border-radius: 8px; margin-top: 20px;">
+      <button class="signup" style="margin-top: 15px;" onclick="alert('You liked this design!')">Like</button>
+    </div>
+
+    <div class="course-card">
+      <div class="course-header">
+        <h2>Living Room Design</h2>
+      </div>
+      <img src="room1.jpg" alt="Student Design - Living Room" style="width: 100%; border-radius: 8px; margin-top: 20px;">
+      <button class="signup" style="margin-top: 15px;" onclick="alert('You liked this design!')">Like</button>
+    </div>
+
+    <div class="course-card">
+      <div class="course-header">
+        <h2>Kitchen Design</h2>
+      </div>
+      <img src="photo_2025-05-21_15-30-01.jpg" alt="Student Design - Kitchen" style="width: 100%; border-radius: 8px; margin-top: 20px;">
+      <button class="signup" style="margin-top: 15px;" onclick="alert('You liked this design!')">Like</button>
+    </div>
+
+  </section>
+
+</body>
+</html>
